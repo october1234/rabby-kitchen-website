@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>兔兔小廚房</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* Customizing Tailwind colors to match the brochure */
+    :root {
+      --primary-color: #614020; /* Brown */
+      --secondary-color: #fff8f2; /* Beige */
+    }
+  </style>
+</head>
+<body class="bg-[--secondary-color] font-sans leading-normal tracking-normal">
+  <div class="grid place-content-center pt-32 p-6">
+    <header class="flex justify-center sm:justify-between items-stretch sm:gap-8 md:gap-32 flex-wrap-reverse sm:flex-nowrap">
+    <div class="flex flex-col gap-8 py-16">
+      <div class="container ">
+        <h2 class="text-4xl font-bold text-[--primary-color] mb-6">關於我們</h2>
+        <p class="text-lg mb-6">
+          我們是個很可愛又很調皮的團隊，可以邊做菜邊玩，工作娛樂兩不誤。
+        </p>
+      </div>
+      <div class="container  text-left">
+        <h2 class="text-4xl font-bold text-[--primary-color] mb-6">聯絡我們</h2>
+        <p class="text-lg mb-2">電話: 0912345678</p>
+        <p class="text-lg mb-2">信箱: s11230517@zlsh.tp.edu.tw</p>
+        <p class="text-lg">網站: rabbykitchen.octsrv.org</p>
+      </div>
+    </div>
+    <div class="container  text-center bg-[url('images/team-image.jpg')] bg-cover bg-center text-white">
+      <div class="h-full w-full min-h-80 flex justify-center items-end">
+        <div class="pb-12">
+          <h1 class="text-5xl font-bold [text-shadow:--primary-color_0_0_0.3rem]">兔兔小廚房</h1>
+          <p class="text-lg mt-2 [text-shadow:--primary-color_0_0_0.3rem]">中崙高中地下1樓</p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Menu Section -->
+  <section class="bg-secondary-color py-12">
+    <div class="container  ">
+      <h2 class="text-4xl font-bold text-primary-color mb-6">菜單</h2>
+
+      <!-- Quick Fry Section -->
+      <div>
+        <h3 class="text-3xl font-semibold text-primary-color mb-4">快炒</h3>
+        <div class="flex gap-6 flex-wrap">
+          <div class="bg-white p-4 shadow border-4 border-[--accent-color] w-80">
+            <div
+              class="mb-4 border-4 border-[--primary-color] w-full h-48 bg-cover bg-center"
+              style="background-image: url('images/cabbage.jpg');">
+            </div>
+            <h4 class="text-xl font-bold text-primary-color">炒高麗菜</h4>
+            <p class="text-lg text-gray-700">$60</p>
+          </div>
+          <div class="bg-white p-4 shadow border-4 border-[--accent-color] w-80">
+            <div
+              class="mb-4 border-4 border-[--primary-color] w-full h-48 bg-cover bg-center"
+              style="background-image: url('images/carrot.jpg');">
+            </div>
+            <h4 class="text-xl font-bold text-primary-color">蛋炒胡蘿蔔</h4>
+            <p class="text-lg text-gray-700">$95</p>
+          </div>
+          <div class="bg-white p-4 shadow border-4 border-[--accent-color] w-80">
+            <div
+              class="mb-4 border-4 border-[--primary-color] w-full h-48 bg-cover bg-center"
+              style="background-image: url('images/meat.jpg');">
+            </div>
+            <h4 class="text-xl font-bold text-primary-color">香煎嫩雞胸</h4>
+            <p class="text-lg text-gray-700">$120</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Desserts Section -->
+      <div class="mt-12">
+        <h3 class="text-3xl font-semibold text-primary-color mb-4">甜點</h3>
+        <div class="flex gap-6 flex-wrap">
+          <div class="bg-white p-4 shadow border-4 border-[--accent-color] w-80">
+            <div
+              class="mb-4 border-4 border-[--primary-color] w-full h-48 bg-cover bg-center"
+              style="background-image: url('images/pizza.jpg');">
+            </div>
+            <h4 class="text-xl font-bold text-primary-color">巧克力披薩</h4>
+            <p class="text-lg text-gray-700">$120</p>
+          </div>
+          <div class="bg-white p-4 shadow border-4 border-[--accent-color] w-80">
+            <div
+              class="mb-4 border-4 border-[--primary-color] w-full h-48 bg-cover bg-center"
+              style="background-image: url('images/cake.jpg');">
+            </div>
+            <h4 class="text-xl font-bold text-primary-color">巧克力蛋糕</h4>
+            <p class="text-lg text-gray-700">$95</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Team Section -->
+  <section class="bg-secondary-color py-12">
+    <div class="container  ">
+      <h2 class="text-4xl font-bold text-primary-color mb-6">團隊成員</h2>
+      <div class="flex gap-6 flex-wrap">
+        <div class="text-center">
+          <div
+            class="w-24 h-24 rounded-full mb-4 border-4 border-[--primary-color] bg-cover bg-center"
+            style="background-image: url('images/person/1.png');">
+          </div>
+          <h4 class="text-xl font-bold text-[--primary-color]">秦晟崴</h4>
+          <p class="text-lg text-gray-700">組長</p>
+        </div>
+        <div class="text-center">
+          <div
+            class="w-24 h-24 rounded-full mb-4 border-4 border-[--primary-color] bg-cover bg-center"
+            style="background-image: url('images/person/2.png');">
+          </div>
+          <h4 class="text-xl font-bold text-[--primary-color]">吳政霖</h4>
+          <p class="text-lg text-gray-700">兔兔</p>
+        </div>
+        <div class="text-center">
+          <div
+            class="w-24 h-24 rounded-full mb-4 border-4 border-[--primary-color] bg-cover bg-center"
+            style="background-image: url('images/person/3.png');">
+          </div>
+          <h4 class="text-xl font-bold text-[--primary-color]">林倚恩</h4>
+          <p class="text-lg text-gray-700">炒菜的</p>
+        </div>
+        <div class="text-center">
+          <div
+            class="w-24 h-24 rounded-full mb-4 border-4 border-[--primary-color] bg-cover bg-center"
+            style="background-image: url('images/person/4.png');">
+          </div>
+          <h4 class="text-xl font-bold text-[--primary-color]">林宸翊</h4>
+          <p class="text-lg text-gray-700">打蛋的</p>
+        </div>
+        <div class="text-center">
+          <div
+            class="w-24 h-24 rounded-full mb-4 border-4 border-[--primary-color] bg-cover bg-center"
+            style="background-image: url('images/person/5.png');">
+          </div>
+          <h4 class="text-xl font-bold text-[--primary-color]">李彥儒</h4>
+          <p class="text-lg text-gray-700">炒菜的</p>
+        </div>
+        <div class="text-center">
+          <div
+            class="w-24 h-24 rounded-full mb-4 border-4 border-[--primary-color] bg-cover bg-center"
+            style="background-image: url('images/person/6.png');">
+          </div>
+          <h4 class="text-xl font-bold text-[--primary-color]">邱紹恩</h4>
+          <p class="text-lg text-gray-700">做麵團的</p>
+        </div>
+        <div class="text-center">
+          <div
+            class="w-24 h-24 rounded-full mb-4 border-4 border-[--primary-color] bg-cover bg-center"
+            style="background-image: url('images/person/7.png');">
+          </div>
+          <h4 class="text-xl font-bold text-[--primary-color]">林庭軒</h4>
+          <p class="text-lg text-gray-700">組員</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  </div>
+
+  <!-- Footer Section -->
+  <footer class="bg-[--primary-color] text-white py-4">
+    <div class="w-full text-center">
+      <p>&copy; 2025 兔兔小廚房. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
